@@ -1,0 +1,299 @@
+.login{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px #8e8e8e solid;
+    z-index: 2;
+}
+main{
+    width: 1180px;
+    margin:0 auto;
+}
+.top-r{
+    width: 80px;
+    margin-right: 60px;
+    float: right;
+    background: #fff;
+}
+.top-r p{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 34px;
+    padding:0 5px 0;
+}
+.top-r span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.menu{
+    width: 100%;
+    height: 130px;
+    /*background: #ccc;*/
+}
+.menu main{
+    height: 90px;
+}
+.logo{
+    width: 281px;
+    height: 89px;
+    padding:7px;
+    float: left;
+}
+.search{
+    width: 650px;
+    height: 80px;
+    /*background: red;*/
+    float: left;
+}
+.search input{
+    width: 380px;
+    height: 34px;
+    margin:20px 0 0 150px;
+    border:2px red solid;
+    float: left;
+}
+.search .btn{
+    width: 100px;
+    height: 34px;
+    margin-top:20px;
+    float: left;
+    color:#fff;
+    background: red;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+.search span{
+    font-size: 14px;
+    margin-left:150px;
+    color:red;
+}
+
+
+.xuanxiang{
+    width: 100%;
+    height: 40px;
+    background: #404040;
+}
+.caidan{
+    width: 220px;
+    height: 40px;
+    background: red;
+    color:#fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+}
+.xx-list{
+    width: 960px;
+    height: 40px;
+    float: left;
+}
+.xx-list li{
+    width: 120px;
+    height: 40px;
+    float: left;
+    color:#fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+.xx-list li a{
+    color:#fff;
+}
+.xx-list li:hover{
+    background: red;
+
+}
+/*banner开始*/
+.banner{
+    width: 100%;
+    height: 475px;
+    /*background: red;*/
+    position: relative;
+    overflow: hidden;
+}
+.bn-box{
+    width: 400%;
+    height: 475px;
+
+}
+.bannertu{
+    width:25%;
+    height: 475px;
+    float: left;
+}
+.lunbo{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left:calc(50% - 50px);
+    bottom:20px;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-around;
+}
+.lunbo li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+.lunbo .active{
+    background: red;
+}
+/*banner结束*/
+.title{
+    width: 100%;
+    height: 38px;
+    margin:20px 0;
+    /*background: red;*/
+}
+.new-cp{
+    width: 260px;
+    height: 38px;
+    background: red;
+    float: left;
+    line-height: 38px;
+    text-align: center;
+    color:#fff;
+}
+.more{
+    width: 82px;
+    height: 30px;
+    float: right;
+    margin-top:4px;
+    border:1px #ccc solid;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+/*产品开始*/
+.product{
+    width: 100%;
+    height: 600px;
+    /*background: red;*/
+}
+.product main{
+    height: 600px;
+}
+.pro-item{
+    width: 286px;
+    height: 282px;
+    float: left;
+    border:1px #ccc solid;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left:12px;
+    position: relative;
+}
+.pro-item1{
+    margin-left: 0;
+}
+.pro-item img{
+    width: 255px;
+    height: 190px;
+}
+.pro-item p{
+    font-size: 14px;
+    line-height: 35px;
+    color: #757575;
+}
+.pro-item span{
+    font-size: 13px;
+    line-height: 20px;
+    color: #f14600;
+}
+/*美食开始*/
+.food{
+    width: 100%;
+    height: 1086px;
+}
+.food main{
+    height: 1086px;
+}
+.food2{
+    width: 100%;
+    height: 219px;
+}
+.food2 main{
+    height: 219px;
+}
+.youshi{
+    width: 100%;
+    height: 67px;
+}
+.youshix{
+    width: 100%;
+    height: 1210px;
+}
+.youshix main{
+    height: 1210px;
+}
+.join{
+    width: 1180px;
+    height: 84px;
+    margin: auto;
+}
+.join-tp{
+    width: 1180px;
+    height: 400px;
+    margin:auto;
+}
+.mendian{
+    width: 100%;
+    height: 70px;
+    margin:auto;
+}
+.md-tp{
+    width: 1280px;
+    height: 400px;
+    margin:auto;
+}
+/*尾部开始*/
+footer{
+    width: 100%;
+    height: 140px;
+    background: #404040;
+}
+footer main{
+    height: 140px;
+    padding:15px;
+    position: relative;
+}
+footer p{
+    font-size: 13px;
+    color:#fff;
+    display: block;
+    width: 900px;
+    /*height: 48px;*/
+    line-height: 24px;
+    float: left;
+}
+footer a{
+    color: #fff;
+    text-decoration:underline;
+    margin-right:5px;
+}
+.ewm-box{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+.ewm-box img{
+    width: 70px;
+    height: 70px;
+    margin:0 auto;
+}
+.ewm-box h1{
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    color:#fff;
+}
