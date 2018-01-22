@@ -118,14 +118,21 @@ main{
     overflow: hidden;
 }
 .bn-box{
-    width: 400%;
+    width: 100%;
     height: 475px;
 
 }
 .bannertu{
-    width:25%;
+    width:100%;
     height: 475px;
-    float: left;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all 1s;
+}
+.bn-box .active{
+    opacity: 1;
 }
 .lunbo{
     width: 100px;
